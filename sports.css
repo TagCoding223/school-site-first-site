@@ -1,0 +1,310 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("/allimg/mainbackground.jpg");
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-attachment: fixed;
+  hyphens: manual;
+  /* hyphens: auto; */
+}
+
+/* nav start */
+nav {
+  background-color: blueviolet;
+  height: 7vw;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+  position: absolute;
+  top: 0.9vw;
+  right: 2vw;
+}
+
+nav ul li {
+  font: 2.5vw bold;
+  display: inline-block;
+  position: relative;
+  padding: 1vw 2vw;
+  color: white;
+}
+
+ul li ul {
+  padding: auto auto;
+  position: absolute;
+  top: 5vw;
+  left: 0px;
+  display: none;
+
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li:hover {
+  background: black;
+  color: white;
+}
+
+ul li ul li {
+  background: #383838;
+  display: block;
+  align-content: center;
+  font-weight: bold;
+  width: 20vw;
+}
+
+ul li ul li:hover {
+  text-decoration: underline red;
+  color: white;
+}
+
+/* multiple drop-down */
+
+.sec-li .sec {
+  padding: 0;
+  position: absolute;
+  top: 35px;
+  left: -20vw;
+  display: none;
+  justify-self: center;
+}
+
+.sec-li:hover .sec {
+  display: block;
+
+}
+
+.sec-li .sec li {
+  width: 155px;
+  background-color: black;
+}
+
+
+/* multiple drop-down */
+
+/* multiple drop-down mobile media queries */
+
+@media (max-width : 360px){
+  .sec-li .sec{
+  padding: 0;
+  position: absolute;
+  top: 12px;
+  left: -19.5vw;
+  display: none;
+  justify-self: center;
+}
+.sec-li .sec li{
+  width: 55px;
+  background-color: black;
+}
+}
+/* multiple drop-down mobile media queries */
+/* multiple drop-down mobile landscape media queries */
+@media (orientation : landscape){
+ .sec-li .sec{
+  padding: 0;
+  position: absolute;
+  top: 12px;
+  display: none;
+  justify-self: center;
+}
+.sec-li .sec li{
+  width: 108px;
+  background-color: black;
+}
+}
+
+/* multiple drop-down mobile landscape media queries */
+a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+
+.loogo {
+  font-size: 6vw;
+  display: inline;
+  padding: 2vw;
+  background: -webkit-linear-gradient(silver, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+li {
+  z-index: 100;
+}
+
+
+/* nav end */
+
+/* header */
+
+header {
+  font-size: 6vw;
+  margin: 2vh;
+  text-align: center;
+
+}
+
+/* header */
+
+/* page heading */
+
+.pa-qu {
+  font-size: 4vw;
+  text-align: center;
+  text-decoration: underline navy;
+  margin: 5vh;
+}
+
+/* page heading */
+
+/* page contains */
+
+.ite-st {
+  display: flex;
+  width: 100vw;
+  height: 30vh;
+  margin-bottom: 3vw;
+}
+@media (orientation : landscape){
+  .ite-st{
+    height: 50vw;
+    margin-bottom: 2vw;
+  }
+}
+.ite-st a {
+  margin: auto;
+}
+
+.it-it {
+  width: 35vw;
+  height: 20vh;
+  background: gold;
+  border-top: 3vw solid violet;
+  border-right: 3vw solid violet;
+  border-radius: 4vw;
+}
+@media (orientation : landscape){
+  .it-it{
+    height: 34vw;
+  }
+}
+.it-img {
+  width: 30vw;
+  margin-left: 1.5vw;
+  margin-top: 1vw;
+  border: 1vw double black;
+  border-radius: 40vw;
+  background: black;
+}
+
+/* page contains */
+
+/* social media section */
+
+.join-soc{
+  text-decoration: underline;
+  margin: 3vw;
+  font-size: 5vw;
+  background-color: whitesmoke;
+  border:2px dashed black;
+  width: 30vw;
+  padding: 1vw;
+}
+
+.soc-ico{
+  display: flex;
+  border: 2px solid black;
+  width: 70vw;
+  margin: auto;
+  height: auto;
+  justify-content: center;
+  background: -webkit-linear-gradient(hotpink , violet);
+}
+.soc-img{
+  width: 9vw;
+  height: 6vh;
+  margin: 2vw;
+  border-radius: 50%;
+}
+/* social media section */
+/* social media section mobile landscape media queries */
+@media (orientation : landscape){
+  .soc-ico{
+    height: 30vh;
+  }
+  .soc-img{
+    height: 20vh;
+  }
+}
+
+/* social media section mobile landscape media queries */
+
+/* footer section */
+
+footer{
+  width: 95vw;
+  height: 55vh;
+  border: 2px solid black;
+  margin: 2vh auto 2vh;
+  background: -webkit-linear-gradient(snow,violet);
+}
+.con-num p{
+  font-size: 3vw;
+  margin: 1vw;
+}
+.man-num{
+  font-size: 2.5vw;
+  margin: 2vw 10vw 2vw;
+}
+.fo-in h6{
+  font-size: 5vw;
+  text-align: center;
+  text-decoration:underline overline darkblue;
+  color : black;
+  margin: 2vw;
+}
+
+.fo-in{
+  margin: 3vw;
+}
+.fo-in p{
+  text-align: center;
+  font-size: 4vw;
+  margin: 3vw;
+}
+
+.ri-con{
+  font-size: 4.5vw;
+  text-align: center;
+  text-decoration: underline black;
+}
+.spe-pre{
+  text-align: center;
+  font-size: 4vw;
+  margin: 3vw;
+  text-decoration: underline overline white;
+}
+  
+/* footer section */
+
+/* footer section mobile landscape media queries */
+@media (orientation : landscape){
+  footer{
+    height: 220vh;
+  }
+}
+
+/* footer section mobile landscape media queries */

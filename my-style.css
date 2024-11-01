@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url("/allimg/mainbackground.jpg");
+  font-family:   Georgia, Times, 'Times New Roman', serif;
+  background-attachment: fixed;
+  hyphens: manual;
+ /* hyphens: auto; */
+}
+
+.ad-img{
+  width: 60vw;
+  border-top: 4vw solid deepskyblue;
+  border-right: 4vw solid deepskyblue ;
+  margin: 20vw 18vw 5vw 20vw;
+  border-radius: 20%;
+}
+
+h1{
+  font-size: 7vw;
+  text-align: center;
+  margin: 5vw;
+  background: -webkit-linear-gradient(white, snow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2{
+  font-size: 5vw;
+  text-align: center;
+  letter-spacing: .2rem;
+  text-decoration: underline solid black;
+}

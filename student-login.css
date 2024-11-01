@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: url("/allimg/mainbackground.jpg");
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-attachment: fixed;
+  hyphens: manual;
+ /* hyphens: auto; */
+}
+/* nav start */
+nav {
+  background-color: blueviolet;
+  height: 7vw;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+  position: absolute;
+  top: 0.9vw;
+  right: 2vw;
+}
+
+nav ul li {
+  font: 2.5vw bold;
+  display: inline-block;
+  position: relative;
+  padding: 1vw 2vw;
+  color: white;
+}
+
+ul li ul {
+  padding: auto auto;
+  position: absolute;
+  top: 5vw;
+  left: 0px;
+  display: none;
+
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li:hover {
+  background: black;
+  color: white;
+}
+
+ul li ul li {
+  background: #383838;
+  display: block;
+  align-content: center;
+  font-weight: bold;
+  width: 20vw;
+}
+
+ul li ul li:hover {
+text-decoration: underline red;
+color: white;
+}
+
+/* multiple drop-down */
+
+.sec-li .sec{
+  padding: 0;
+  position: absolute;
+  top: 35px;
+  left: -20vw;
+  display: none;
+  justify-self: center;
+}
+.sec-li:hover .sec{
+  display: block;
+ 
+}
+.sec-li .sec li{
+  width: 155px;
+  background-color: black;
+}
+
+
+/* multiple drop-down */
+
+/* multiple drop-down mobile media queries */
+
+@media (max-width : 360px){
+  .sec-li .sec{
+  padding: 0;
+  position: absolute;
+  top: 12px;
+  left: -19.5vw;
+  display: none;
+  justify-self: center;
+}
+.sec-li .sec li{
+  width: 55px;
+  background-color: black;
+}
+}
+/* multiple drop-down mobile media queries */
+
+/* multiple drop-down mobile landscape media queries */
+@media (orientation : landscape){
+ .sec-li .sec{
+  padding: 0;
+  position: absolute;
+  top: 12px;
+  display: none;
+  justify-self: center;
+}
+.sec-li .sec li{
+  width: 108px;
+  background-color: black;
+}
+}
+
+/* multiple drop-down mobile landscape media queries */
+a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+
+.loogo {
+  font-size: 6vw;
+  display: inline;
+  padding: 2vw;
+  background: -webkit-linear-gradient(silver, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+li {
+  z-index: 100;
+}
+
+
+/* nav end */
+
+/* header */
+
+header{
+  font-size: 6vw;
+  margin: 2vh;
+  text-align: center;
+  
+}
+/* header */
+
+/* page heading */
+.peg-hed{
+  margin: 5vw;
+  font-size: 4vw;
+  text-decoration: double underline hotpink;
+  text-align: center;
+}
+
+/* login box */
+.lo-bo{
+  width: 85vw;
+  height: 70vw;
+  border: 2px solid black;
+  border-radius: 2vw;
+  background: snow;
+  margin: 15vw auto 5vw;
+}
+
+.lolo-box{
+  width : 80vw;
+  margin: auto;
+  height: 70vw;
+}
+
+/* box heading */
+
+.lo-bo h3{
+  font-size: 6vw;
+  text-align: center;
+  margin: 5vw auto 5vw;
+  text-decoration: underline black;
+}
+
+/* box item */
+.lo-can{
+  width: 70vw;
+  margin: auto;
+}
+
+.lo-can p{
+  font-size: 5vw;
+  margin: 1vw;
+}
+
+.lo-can input{
+  width: 65vw;
+  height: 7vw;
+  border: 2px solid black;
+  margin: 1vw;
+  font-size: 4vw;
+  padding-left: 1vw;
+}
+
+
+.non-ze{
+  margin-top: 5vw;
+}
+
+ .button{
+  
+  width: auto;
+  margin: 2vw ;
+  font-size: 5vw;
+  border: 2px solid black;
+  background-color: blueviolet;
+  color: white;
+}
+.btn-con{
+  display: flex;
+  padding-left: 22vw;
+}

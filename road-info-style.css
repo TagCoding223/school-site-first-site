@@ -1,0 +1,440 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: url("/allimg/mainbackground.jpg");
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-attachment: fixed;
+  hyphens: manual;
+ /* hyphens: auto; */
+}
+/* nav start */
+nav {
+  background-color: blueviolet;
+  height: 7vw;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+  position: absolute;
+  top: 0.9vw;
+  right: 2vw;
+}
+
+nav ul li {
+  font: 2.5vw bold;
+  display: inline-block;
+  position: relative;
+  padding: 1vw 2vw;
+  color: white;
+}
+
+ul li ul {
+  padding: auto auto;
+  position: absolute;
+  top: 5vw;
+  left: 0px;
+  display: none;
+
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li:hover {
+  background: black;
+  color: white;
+}
+
+ul li ul li {
+  background: #383838;
+  display: block;
+  align-content: center;
+  font-weight: bold;
+  width: 20vw;
+}
+
+ul li ul li:hover {
+text-decoration: underline red;
+color: white;
+}
+
+/* multiple drop-down */
+
+.sec-li .sec{
+  padding: 0;
+  position: absolute;
+  top: 35px;
+  left: -20vw;
+  display: none;
+  justify-self: center;
+}
+.sec-li:hover .sec{
+  display: block;
+ 
+}
+.sec-li .sec li{
+  width: 155px;
+  background-color: black;
+}
+
+
+/* multiple drop-down */
+a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+
+.loogo {
+  font-size: 6vw;
+  display: inline;
+  padding: 2vw;
+  background: -webkit-linear-gradient(silver, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+li {
+  z-index: 100;
+}
+
+
+/* nav end */
+
+/* header */
+
+header{
+  font-size: 6vw;
+  margin: 2vh;
+  text-align: center;
+  
+}
+/* header */
+
+/* Page Heading */
+
+.pag-hed {
+  text-align: center;
+  justify-content: center;
+  height: auto;
+  text-decoration: underline overline darkblue;
+  background: -webkit-linear-gradient(black, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 3.5vw;
+  margin-bottom: 2vw;
+  font-size: 2.5vw;
+}
+
+/* Page Heading */
+
+/* road info */
+
+.ro-had-con{
+  display: flex;
+}
+
+  color: white;
+}
+
+ul li ul li {
+  background: #383838;
+  display: block;
+  align-content: center;
+  font-weight: bold;
+  width: 20vw;
+}
+
+ul li ul li:hover {
+text-decoration: underline red;
+color: white;
+}
+
+/* multiple drop-down */
+
+.sec-li .sec{
+  padding: 0;
+  position: absolute;
+  top: 35px;
+  left: -20vw;
+  display: none;
+  justify-self: center;
+}
+.sec-li:hover .sec{
+  display: block;
+ 
+}
+.sec-li .sec li{
+  width: 155px;
+  background-color: black;
+}
+
+
+/* multiple drop-down */
+
+/* multiple drop-down mobile media queries */
+
+@media (max-width : 360px){
+  .sec-li .sec{
+  padding: 0;
+  position: absolute;
+  top: 12px;
+  left: -19.5vw;
+  display: none;
+  justify-self: center;
+}
+.sec-li .sec li{
+  width: 55px;
+  background-color: black;
+}
+}
+/* multiple drop-down mobile media queries */
+
+/* multiple drop-down mobile landscape media queries */
+@media (orientation : landscape){
+ .sec-li .sec{
+  padding: 0;
+  position: absolute;
+  top: 12px;
+  display: none;
+  justify-self: center;
+}
+.sec-li .sec li{
+  width: 108px;
+  background-color: black;
+}
+}
+
+/* multiple drop-down mobile landscape media queries */
+a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+
+.loogo {
+  font-size: 6vw;
+  display: inline;
+  padding: 2vw;
+  background: -webkit-linear-gradient(silver, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+li {
+  z-index: 100;
+}
+
+
+/* nav end */
+
+/* header */
+
+header{
+  font-size: 6vw;
+  margin: 2vh;
+  text-align: center;
+  
+}
+/* header */
+
+/* page item heading */
+
+.con {
+  margin: 5vw auto 0;
+  width: 90vw;
+  display: flex;
+  height: 8vw;
+  font-size: 5vw;
+}
+
+.c-t{
+  border: 2px solid black;
+  width: 20vw;
+}
+.c-t p , .c-r p , .c-d p{
+  margin-top: 1vw;
+  text-align: center;
+}
+.c-r{
+  border: 2px solid black;
+  width: 40vw;
+}
+.c-d{
+  border: 2px solid black;
+  width: 30vw;
+}
+/* media queries for table heading in mobile */
+@media (max-width : 360px){
+  .c-t , .c-r , .c-d{
+    border: 1px solid black;
+  }
+}
+
+/* page item heading */
+/* item details */
+
+.man-con{
+  width: 90vw;
+  display: flex;
+  font-size: 4vw;
+  margin: auto;
+}
+
+.c-m-t{
+  border: 2px solid black;
+  width: 20vw;
+}
+.c-m-r{
+  border: 2px solid black;
+  width: 40vw;
+}
+.c-m-d{
+  border: 2px solid black;
+  width: 30vw;
+}
+.c-m-t p , .c-m-r p , .c-m-d p{
+  margin-top: 1vw;
+  text-align: center;
+}
+
+.c-info{
+  margin: 5vw;
+}
+.c-info h5{
+  text-align: center;
+  font-size: 5vw;
+  text-decoration: underline overline darkblue;
+}
+.c-info p{
+  margin: 5vw;
+  text-align: center;
+ text-transform: capitalize;
+  font-size: 4vw;
+}
+/* media queries for table items in mobile */
+@media ( max-width : 360px){
+  .c-m-t , .c-m-r ,.c-m-d{
+    border: 1px solid black;
+  }
+}
+/* item details */
+
+/* apply section */
+.apply{
+  margin: 5vw;
+  text-align: center;
+  font-size: 5vw;
+  text-decoration: underline;
+}
+
+
+/* apply section */
+
+/* social media section */
+
+.join-soc{
+  text-decoration: underline;
+  margin: 3vw;
+  font-size: 5vw;
+  background-color: whitesmoke;
+  border:2px dashed black;
+  width: 30vw;
+  padding: 1vw;
+}
+
+.soc-ico{
+  display: flex;
+  border: 2px solid black;
+  width: 70vw;
+  margin: auto;
+  height: auto;
+  justify-content: center;
+  background: -webkit-linear-gradient(hotpink , violet);
+}
+.soc-img{
+  width: 9vw;
+  height: 6vh;
+  margin: 2vw;
+  border-radius: 50%;
+}
+/* social media section */
+/* social media section mobile landscape media queries */
+@media (orientation : landscape){
+  .soc-ico{
+    height: 30vh;
+  }
+  .soc-img{
+    height: 20vh;
+  }
+}
+
+/* social media section mobile landscape media queries */
+
+/* footer section */
+
+footer{
+  width: 95vw;
+  height: 55vh;
+  border: 2px solid black;
+  margin: 2vh auto 2vh;
+  background: -webkit-linear-gradient(snow,violet);
+}
+.con-num p{
+  font-size: 3vw;
+  margin: 1vw;
+}
+.man-num{
+  font-size: 2.5vw;
+  margin: 2vw 10vw 2vw;
+}
+.fo-in h6{
+  font-size: 5vw;
+  text-align: center;
+  text-decoration:underline overline darkblue;
+  color : black;
+  margin: 2vw;
+}
+
+.fo-in{
+  margin: 3vw;
+}
+.fo-in p{
+  text-align: center;
+  font-size: 4vw;
+  margin: 3vw;
+}
+
+.ri-con{
+  font-size: 4.5vw;
+  text-align: center;
+  text-decoration: underline black;
+}
+.spe-pre{
+  text-align: center;
+  font-size: 4vw;
+  margin: 3vw;
+  text-decoration: underline overline white;
+}
+  
+/* footer section */
+/* footer section mobile landscape media queries */
+@media (orientation : landscape){
+  footer{
+    height: 220vh;
+  }
+}
+
+/* footer section mobile landscape media queries */

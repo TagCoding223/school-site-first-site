@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Portal ( Login )</title>
+  <link rel="stylesheet" href="/student-login.css">
+</head>
+
+<body>
+  <!------- Navigation Bar ------>
+  <nav>
+    <div class="loogo">
+      <b>ACHSS</b>
+    </div>
+
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li>About
+        <ul>
+          <li><a href="/information-acknowledgement.html">Information</a></li>
+          <li><a href="/information-acknowledgement.html">Acknowledge</a>
+        </ul>
+      </li>
+
+      <li>Services
+        <ul>
+          <li class="sec-li">Bus
+            <ul class="sec">
+              <li><a href="/road-info.html">Road Info.</a></li>
+              <li><a href="/road-from.html">Apply To Ser.</a></li>
+            </ul>
+          </li>
+          <li class="sec-li">Scholarship
+            <ul class="sec">
+              <li><a href="/scholarship-info.html">Info.</a></li>
+              <li><a href="/scholarship-from.html">Apply</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="/help-spp.html">Help</a></li>
+      <li><a href="/help-spp.html">Support</a>
+      </li>
+    </ul>
+
+  </nav>
+
+  <!-------- Navigation Bar -------->
+
+  <!-------- Header Name ---------->
+  <header>
+    <p><strong>Alpha Cambridge Higher Secondary School</strong></p>
+  </header>
+  <hr>
+  <hr>
+  <!---------- Header Name --------->
+
+  <!---------- heading ----------->
+  <div class="peg-hed">
+    <h1>Student's Portal</h1>
+  </div>
+  <!----------- heading ---------->
+
+  <!----------- login box --------->
+
+  <div class="lo-bo">
+    <div class="lolo-box">
+      <h3>Login</h3>
+      <form name="login">
+        <div class="lo-can">
+          <p>Username</p>
+          <input type="text" name="userid" />
+        </div>
+        <div class="lo-can">
+          <p>Password</p>
+          <input type="password" name="pswrd" />
+        </div>
+        <hr class="non-ze">
+        <hr>
+        <div class="btn-con">
+          <input class="button" type="button" onclick="check(this.form)" value="Login" />
+          <input class="button" type="reset" value="Clear" />
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+  <script src="/student-portal-login-js.js"></script>
+</body>
+
+</html>
